@@ -35,7 +35,7 @@ npx serve .
 ├── preview.png             # 预览图（README 使用）
 ├── site.webmanifest        # PWA 配置
 ├── robots.txt
-|—— favicon.svg
+├── favicon.svg
 └── assets/
     ├── css/style.css       # 全部样式与响应式规则
     ├── js/main.js          # 交互与计算器逻辑
