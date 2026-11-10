@@ -509,7 +509,7 @@ svg {
   font-size: 10px;
   letter-spacing: 0.23em;
   color: var(--muted);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .eyebrow .dot {
@@ -547,7 +547,7 @@ svg {
   font-size: 11px;
   letter-spacing: 0.46em;
   color: var(--dim);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .hero-lead {
@@ -913,7 +913,7 @@ svg {
   font-size: 10.5px;
   letter-spacing: 0.22em;
   color: var(--muted);
-  text-transform: uppercase;
+  text-transform: capitalize;
   white-space: nowrap;
 }
 
@@ -999,7 +999,7 @@ svg {
   font-size: 9.5px;
   letter-spacing: 0.24em;
   color: var(--dim);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .sec-label .num {
@@ -1498,7 +1498,7 @@ svg {
   font-size: 8px;
   letter-spacing: 0.16em;
   color: var(--dim);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .calc-live {
@@ -1650,7 +1650,7 @@ svg {
   font-size: 8px;
   letter-spacing: 0.18em;
   color: var(--dim);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .honor h3 {
@@ -1668,7 +1668,7 @@ svg {
   font-size: 8px;
   letter-spacing: 0.1em;
   color: var(--dim);
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .honor-index {
