@@ -36,6 +36,7 @@ npx serve .
 ├── site.webmanifest        # PWA 配置
 ├── robots.txt
 ├── favicon.svg
+├── 杨正昊白底照片.jpg
 └── assets/
     ├── css/style.css       # 全部样式与响应式规则
     ├── js/main.js          # 交互与计算器逻辑
