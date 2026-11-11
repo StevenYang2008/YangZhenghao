@@ -8,7 +8,7 @@
 
 - 纯静态站点：HTML + CSS + 原生 JavaScript，**零依赖、无需构建**
 - 响应式布局，已适配 320px – 1440px 视口
-- 深色编辑感视觉，衬线中文标题、网格与噪点质感
+- 白色与浅绿色编辑感视觉，衬线中文标题、网格与噪点质感
 - 滚动渐入、数字滚动、卡片微倾斜、导航高亮
 - 项目区内置一个可用的计算器交互复刻，支持鼠标与键盘
 - 支持 `prefers-reduced-motion`，兼顾动效敏感用户
@@ -35,12 +35,11 @@ npx serve .
 ├── preview.png             # 预览图（README 使用）
 ├── site.webmanifest        # PWA 配置
 ├── robots.txt
-├── favicon.svg
-├── 杨正昊白底照片.jpg
 └── assets/
     ├── css/style.css       # 全部样式与响应式规则
     ├── js/main.js          # 交互与计算器逻辑
     ├── resume.pdf          # 简历文件（下载按钮指向这里）
+    ├── favicon.svg
     ├── icon-192.png
     ├── icon-512.png
     ├── apple-touch-icon.png
@@ -69,7 +68,7 @@ npx serve .
 
 ## 内容与自定义
 
-- **主色**：`assets/css/style.css` 顶部的 `:root` 中修改 `--accent`（当前为朱橙色 `#ff5a2f`）与背景色
+- **主色**：`assets/css/style.css` 顶部的 `:root` 中修改 `--accent`（当前为森林绿 `#2f7d55`）与背景色
 - **文案**：全部在 `index.html` 中，按区块搜索即可
 - **简历**：替换 `assets/resume.pdf`，保持文件名不变即可
 - **头像 / 照片**：当前使用“杨”字视觉卡片，如需真实照片，可将 `.profile-mark` 内的内容替换为 `<img>`，并同步调整样式
@@ -86,5 +85,3 @@ npx serve .
 ## 说明
 
 站点为纯前端静态页面，邮箱等信息会公开在页面源码中；如不希望被爬虫收集，可在部署后增加简单的邮箱混淆或联系表单服务。
-# YangZhenghao
-# YangZhenghao
