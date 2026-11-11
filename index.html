@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#f6faf3">
+  <meta name="theme-color" content="#f9fcf5">
   <meta name="color-scheme" content="light">
   <title>杨正昊 | 软件工程 · 华中科技大学</title>
   <meta name="description" content="杨正昊的个人网站。华中科技大学软件工程 2026 级本科生，C/C++ 学习者，摄影、钢琴与羽毛球爱好者。">
@@ -25,6 +25,7 @@
       "name": "杨正昊",
       "alternateName": "Yang Zhenghao",
       "email": "mailto:2164724967@qq.com",
+      "telephone": "+86-15979185818",
       "affiliation": {
         "@type": "CollegeOrUniversity",
         "name": "华中科技大学"
@@ -42,25 +43,21 @@
 <body>
   <a class="skip-link" href="#main">跳到主要内容</a>
 
-  <div class="progress" aria-hidden="true"><span id="progressBar"></span></div>
-
   <header class="site-header" id="siteHeader">
     <div class="container header-inner">
-      <a class="logo" href="#top" aria-label="杨正昊 · 返回顶部">
+      <a class="logo" href="index.html" aria-label="杨正昊的个人网站 · 返回首页">
         <span class="logo-mark" aria-hidden="true">Y</span>
         <span class="logo-text">
-          <span class="logo-name">杨正昊</span>
-          <span class="logo-sub">PORTFOLIO / 2026</span>
+          <span class="logo-name">杨正昊的个人网站</span>
         </span>
       </a>
 
       <nav class="nav" aria-label="主导航">
-        <a href="#about">关于</a>
-        <a href="#education">教育</a>
-        <a href="#skills">技能</a>
-        <a href="#work">项目</a>
-        <a href="#honors">荣誉</a>
-        <a href="#contact">联系</a>
+        <a href="index.html" class="active" aria-current="page">首页</a>
+        <a href="education.html">教育经历</a>
+        <a href="work.html">项目经历</a>
+        <a href="publications.html">发表论文</a>
+        <a href="honors.html">个人荣誉</a>
       </nav>
 
       <div class="header-actions">
@@ -77,474 +74,134 @@
 
   <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
     <nav class="mobile-nav" aria-label="移动端导航">
-      <a href="#about"><span>01</span>关于</a>
-      <a href="#education"><span>02</span>教育</a>
-      <a href="#skills"><span>03</span>技能</a>
-      <a href="#work"><span>04</span>项目</a>
-      <a href="#honors"><span>05</span>荣誉</a>
-      <a href="#contact"><span>06</span>联系</a>
+      <a href="index.html" class="active" aria-current="page"><span>01</span>首页</a>
+      <a href="education.html"><span>02</span>教育经历</a>
+      <a href="work.html"><span>03</span>项目经历</a>
+      <a href="publications.html"><span>04</span>发表论文</a>
+      <a href="honors.html"><span>05</span>个人荣誉</a>
     </nav>
-    <div class="mobile-menu-foot">
-      <a href="mailto:2164724967@qq.com">2164724967@qq.com</a>
-      <a class="btn btn--primary" href="assets/resume.pdf" download>下载简历</a>
-    </div>
+    <a class="btn btn--primary mobile-download" href="assets/resume.pdf" download>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 17v3h16v-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      下载简历
+    </a>
   </div>
 
   <main id="main">
     <!-- HERO -->
     <section class="hero" id="top">
       <div class="hero-grid-bg" aria-hidden="true"></div>
-      <div class="hero-glow" id="heroGlow" aria-hidden="true"></div>
       <div class="orb orb-1" aria-hidden="true"></div>
-      <div class="orb orb-2" aria-hidden="true"></div>
 
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow hero-anim" style="--d:.05s">
-            <span class="dot" aria-hidden="true"></span>
-            SOFTWARE ENGINEERING · HUST · 2026
-          </p>
+          <div class="hero-identity">
+            <div class="hero-identity-copy hero-anim" style="--d:.05s">
+              <h1 class="hero-title">杨正昊<span class="title-dot">.</span></h1>
+              <p class="hero-latin">Yang Zhenghao</p>
+            </div>
 
-          <h1 class="hero-title hero-anim" style="--d:.12s">杨正昊<span class="title-dot">.</span></h1>
-
-          <p class="hero-latin hero-anim" style="--d:.18s">YANG ZHENGHAO</p>
-
-          <p class="hero-lead hero-anim" style="--d:.26s">
-            18 岁，华中科技大学软件工程专业<span class="nowrap">本科生</span>。
-            用 <strong>C / C++</strong> 拆解问题，也用<span class="nowrap">镜头</span>、琴键和球场记录生活。
-          </p>
-
-          <div class="hero-actions hero-anim" style="--d:.34s">
-            <a class="btn btn--primary" href="#about">
-              认识我
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-            <a class="btn btn--ghost" href="assets/resume.pdf" download>
-              下载简历
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 17v3h16v-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
-          </div>
-
-          <ul class="hero-meta hero-anim" style="--d:.42s">
-            <li class="meta-item">
-              <span class="meta-label">BASE</span>
-              <span class="meta-value">武汉 · 中国</span>
-            </li>
-            <li class="meta-item">
-              <span class="meta-label">STATUS</span>
-              <span class="meta-value">大一在读</span>
-            </li>
-            <li class="meta-item">
-              <span class="meta-label">LOCAL TIME</span>
-              <span class="meta-value"><span id="clock">--:--</span> GMT+8</span>
-            </li>
-          </ul>
-        </div>
-
-        <div class="hero-visual hero-anim" style="--d:.2s">
-          <div class="profile-wrap">
-            <span class="chip chip-1">C / C++</span>
-            <span class="chip chip-2">CSP-S · NOIP</span>
-            <span class="chip chip-3">PHOTOGRAPHY</span>
-            <span class="chip chip-4">PIANO</span>
-
-            <div class="profile-card" data-tilt>
-              <div class="profile-head">
-                <span>PROFILE — 001</span>
-                <span class="profile-status"><i aria-hidden="true"></i>ONLINE</span>
+            <div class="hero-portrait hero-anim" style="--d:.16s">
+              <div class="profile-card">
+                <figure class="profile-photo">
+                  <img
+                    src="assets/portrait.jpg"
+                    alt="杨正昊的个人照片"
+                    width="1200"
+                    height="1007"
+                  >
+                </figure>
               </div>
-
-              <div class="profile-mark">
-                <span class="ring ring-1" aria-hidden="true"></span>
-                <span class="ring ring-2" aria-hidden="true"></span>
-                <span class="mark-cn" aria-hidden="true">杨</span>
-                <span class="stamp" aria-hidden="true"><span>正</span><span>昊</span></span>
-              </div>
-
-              <div class="profile-info">
-                <div class="info-row"><span class="info-key">SCHOOL</span><span class="info-val">华中科技大学</span></div>
-                <div class="info-row"><span class="info-key">MAJOR</span><span class="info-val">软件工程 · 2026 级</span></div>
-                <div class="info-row"><span class="info-key">FOCUS</span><span class="info-val">C / C++ · 算法</span></div>
-              </div>
-
-              <span class="profile-side" aria-hidden="true">SOFTWARE ENGINEERING</span>
             </div>
           </div>
-        </div>
-      </div>
 
-      <a class="scroll-cue" href="#about" aria-label="向下滚动">
-        <span>SCROLL TO EXPLORE</span>
-        <i aria-hidden="true"></i>
-      </a>
-    </section>
+          <div class="hero-degree hero-anim" style="--d:.24s">
+            <p class="hero-degree-cn">华中科技大学软件工程专业本科生</p>
+            <p class="hero-degree-en">School of Software Engineering · HUST</p>
+          </div>
 
-    <!-- MARQUEE -->
-    <div class="marquee" aria-hidden="true">
-      <div class="marquee-track">
-        <div class="marquee-group">
-          <span class="marquee-item">C / C++</span>
-          <span class="marquee-item">ALGORITHM</span>
-          <span class="marquee-item">华中科技大学</span>
-          <span class="marquee-item">PHOTOGRAPHY</span>
-          <span class="marquee-item">算法竞赛</span>
-          <span class="marquee-item">PIANO</span>
-          <span class="marquee-item">BADMINTON</span>
-          <span class="marquee-item">AI-ASSISTED</span>
-        </div>
-        <div class="marquee-group">
-          <span class="marquee-item">C / C++</span>
-          <span class="marquee-item">ALGORITHM</span>
-          <span class="marquee-item">华中科技大学</span>
-          <span class="marquee-item">PHOTOGRAPHY</span>
-          <span class="marquee-item">算法竞赛</span>
-          <span class="marquee-item">PIANO</span>
-          <span class="marquee-item">BADMINTON</span>
-          <span class="marquee-item">AI-ASSISTED</span>
-        </div>
-      </div>
-    </div>
+          <dl class="hero-meta hero-anim" style="--d:.32s" aria-label="基本信息">
+            <div class="hero-meta-row">
+              <div class="hero-meta-item">
+                <dt>邮箱</dt>
+                <dd><a href="mailto:2164724967@qq.com">2164724967@qq.com</a></dd>
+              </div>
+              <div class="hero-meta-item">
+                <dt>电话</dt>
+                <dd><a href="tel:15979185818">15979185818</a></dd>
+              </div>
+              <div class="hero-meta-item hero-meta-item--end">
+                <dt>性别</dt>
+                <dd>男</dd>
+              </div>
+            </div>
 
-    <!-- STATS -->
-    <section class="container stats" aria-label="关键成绩">
-      <div class="stat reveal">
-        <div class="stat-num"><span data-count="133">0</span></div>
-        <p class="stat-label">高考数学<span>2026 新高考Ⅰ卷</span></p>
-      </div>
-      <div class="stat reveal" style="--d:.08s">
-        <div class="stat-num"><span data-count="144">0</span></div>
-        <p class="stat-label">高考英语<span>2026 新高考Ⅰ卷</span></p>
-      </div>
-      <div class="stat reveal" style="--d:.16s">
-        <div class="stat-num"><span data-count="2026">0</span></div>
-        <p class="stat-label">步入大学<span>HUST · SOFTWARE ENGINEERING</span></p>
-      </div>
-      <div class="stat reveal" style="--d:.24s">
-        <div class="stat-num stat-text">C++</div>
-        <p class="stat-label">主攻语言<span>COURSE · CONTEST · PROJECT</span></p>
-      </div>
-    </section>
+            <div class="hero-meta-row">
+              <div class="hero-meta-item">
+                <dt>年龄</dt>
+                <dd>18</dd>
+              </div>
+              <div class="hero-meta-item">
+                <dt>最高学历</dt>
+                <dd>高中</dd>
+              </div>
+              <div class="hero-meta-item">
+                <dt>政治面貌</dt>
+                <dd>共青团员</dd>
+              </div>
+            </div>
 
-    <!-- ABOUT -->
-    <section class="section about" id="about">
-      <div class="container about-grid">
-        <aside class="about-aside reveal">
-          <p class="sec-label"><span class="num">01</span><i aria-hidden="true"></i>ABOUT ME</p>
-          <h2 class="sec-title">关于我</h2>
-          <blockquote class="about-quote">把复杂的事做简单，<br>把简单的事做扎实。</blockquote>
-          <p class="about-sign">— 杨正昊</p>
-        </aside>
-
-        <div class="about-body">
-          <p class="about-lead reveal">
-            我是杨正昊，一名刚踏入大学校园的<span class="nowrap">软件工程</span>学生。<span class="nowrap">喜欢</span>把问题拆开、再一点点拼回去的感觉。
-          </p>
-          <p class="reveal" style="--d:.08s">
-            从高中竞赛班写下第一行 C++ 开始，我参加了 <span class="nowrap">CSP-S</span>、<span class="nowrap">NOIP</span> 等信息学竞赛，也独立完成过一个完整的<span class="nowrap">计算器</span>程序。数学和英语是我比较有把握的两门课，它们一个训练逻辑，一个打开视野。
-          </p>
-          <p class="reveal" style="--d:.14s">
-            屏幕之外，我喜欢羽毛球、摄影、钢琴和电影。这些爱好让我保持观察与感受——技术最终是为人服务的，而好的软件，往往从理解人开始。
-          </p>
-
-          <dl class="info-grid reveal" style="--d:.2s">
-            <div class="info-cell"><dt>AGE</dt><dd>18 岁</dd></div>
-            <div class="info-cell"><dt>GENDER</dt><dd>男</dd></div>
-            <div class="info-cell"><dt>POLITICAL</dt><dd>共青团员</dd></div>
-            <div class="info-cell"><dt>LOCATION</dt><dd>湖北 · 武汉</dd></div>
+            <div class="hero-meta-row">
+              <div class="hero-meta-item hero-meta-item--wide">
+                <dt>个人兴趣爱好</dt>
+                <dd>羽毛球、摄影、钢琴、看电影、唱歌</dd>
+              </div>
+            </div>
           </dl>
+        </div>
 
-          <div class="hobbies reveal" style="--d:.26s">
-            <span class="hobby-label">INTERESTS</span>
-            <span class="pill">羽毛球</span>
-            <span class="pill">摄影</span>
-            <span class="pill">钢琴</span>
-            <span class="pill">电影</span>
-            <span class="pill">唱歌</span>
+        <aside class="hero-skills hero-anim" style="--d:.3s" aria-labelledby="heroSkillsTitle">
+          <div class="hero-skills-head">
+            <h2 class="hero-skills-title" id="heroSkillsTitle">技能</h2>
+            <span class="hero-skills-en" aria-hidden="true">Skills</span>
           </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- EDUCATION -->
-    <section class="section" id="education">
-      <div class="container">
-        <div class="section-head reveal">
-          <div>
-            <p class="sec-label"><span class="num">02</span><i aria-hidden="true"></i>EDUCATION</p>
-            <h2 class="sec-title">教育经历</h2>
-          </div>
-          <p class="sec-desc">从赣江边到喻家山，一条还在继续延伸的学习曲线。</p>
-        </div>
-
-        <div class="timeline">
-          <article class="edu-item reveal">
-            <div class="edu-date">
-              2026.09 — 至今
-              <span class="edu-badge">在读</span>
+          <dl class="hero-skills-list">
+            <div class="hero-skill">
+              <dt>编程语言</dt>
+              <dd>
+                <p class="hero-skill-desc">C/C++<br>Python<br>JavaScript &amp; CSS</p>
+              </dd>
             </div>
-            <div class="edu-card">
-              <div class="edu-top">
-                <h3>华中科技大学</h3>
-                <span class="edu-badge">HUST</span>
-              </div>
-              <p class="edu-role">软件工程 · 本科</p>
-              <ul class="bullet-list">
-                <li>已学习专业相关课程：C 语言程序设计、<span class="nowrap">信息技术导论</span>（软件中国）、微积分</li>
-                <li>华中科技大学软件学院新闻中心成员</li>
-              </ul>
-              <div class="tags">
-                <span>C 语言</span><span>微积分</span><span>新闻中心</span><span>2026 级</span>
-              </div>
+            <div class="hero-skill">
+              <dt>语言能力</dt>
+              <dd>
+                <p class="hero-skill-desc">中文极为流畅，普通话水平测试（分数未知）<br>英文基础良好，具备<span class="nowrap">阅读和写作能力</span></p>
+              </dd>
             </div>
-          </article>
-
-          <article class="edu-item reveal" style="--d:.08s">
-            <div class="edu-date">2023.09 — 2026.06</div>
-            <div class="edu-card">
-              <div class="edu-top">
-                <h3>江西师范大学附属中学</h3>
-                <span class="edu-badge">HIGH SCHOOL</span>
-              </div>
-              <p class="edu-role">高中 · 理科</p>
-              <ul class="bullet-list">
-                <li>校竞赛班成员，系统学习 C++，参加 <span class="nowrap">CSP-S</span>、<span class="nowrap">NOIP</span> 等信息学竞赛</li>
-                <li>曾担任班长、纪律委员，具备团队协作能力与管理经验</li>
-                <li>获校级三好学生、校级学习之星荣誉称号</li>
-              </ul>
-              <div class="tags">
-                <span>C++</span><span>CSP-S</span><span>NOIP</span><span>班长</span>
-              </div>
+            <div class="hero-skill">
+              <dt>AI 工具</dt>
+              <dd>
+                <p class="hero-skill-desc">DeepSeek-V4.1-Flash<br>DeepSeek-V4.1-Pro<br>Doubao 2.1<br>Qwen3.8-Flash</p>
+              </dd>
             </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- SKILLS -->
-    <section class="section" id="skills">
-      <div class="container">
-        <div class="section-head reveal">
-          <div>
-            <p class="sec-label"><span class="num">03</span><i aria-hidden="true"></i>CAPABILITIES</p>
-            <h2 class="sec-title">技能与工具</h2>
-          </div>
-          <p class="sec-desc">不急着贴满标签，先把正在用的东西用得更熟。</p>
-        </div>
-
-        <div class="skills-grid">
-          <article class="skill-card reveal">
-            <div class="skill-top"><span class="skill-num">/ 01</span><span class="skill-num">主攻</span></div>
-            <h3>编程语言</h3>
-            <p class="skill-desc">从课程语法到指针与算法思维，在竞赛和项目里持续打磨 C / C++ 的基本功。</p>
-            <div class="skill-tags"><span>C</span><span>C++</span><span>算法基础</span><span>Dev-C++</span></div>
-          </article>
-
-          <article class="skill-card reveal" style="--d:.06s">
-            <div class="skill-top"><span class="skill-num">/ 02</span><span class="skill-num">工具</span></div>
-            <h3>开发环境</h3>
-            <p class="skill-desc">熟悉经典 C/C++ 开发环境，能够独立完成编写、编译、调试与运行的完整流程。</p>
-            <div class="skill-tags"><span>Dev-C++ 5.11</span><span>TDM-GCC 4.9.2</span><span>Windows</span></div>
-          </article>
-
-          <article class="skill-card reveal" style="--d:.12s">
-            <div class="skill-top"><span class="skill-num">/ 03</span><span class="skill-num">语言</span></div>
-            <h3>语言能力</h3>
-            <p class="skill-desc">中文表达流畅；英语读写良好，能够阅读英文文献，高考英语 144 分。</p>
-            <div class="skill-tags"><span>中文 · 母语</span><span>英语 · 读写</span><span>文献阅读</span></div>
-          </article>
-
-          <article class="skill-card reveal" style="--d:.18s">
-            <div class="skill-top"><span class="skill-num">/ 04</span><span class="skill-num">协作</span></div>
-            <h3>AI 工具</h3>
-            <p class="skill-desc">习惯把 AI 当作学习与开发的搭档：查资料、理思路、改代码，也提醒自己保持判断。</p>
-            <div class="skill-tags"><span>DeepSeek V4</span><span>Doubao 2.1</span><span>AI 辅助开发</span></div>
-          </article>
-
-          <article class="skill-card skill-card--wide reveal" style="--d:.24s">
-            <div>
-              <div class="skill-top"><span class="skill-num">/ 05</span></div>
-              <h3>办公软件</h3>
+            <div class="hero-skill">
+              <dt>办公软件</dt>
+              <dd>
+                <p class="hero-skill-desc">能熟练使用 Word、Excel 与 PowerPoint，完成文档排版、<span class="nowrap">表格处理</span>与<span class="nowrap">演示文稿</span>制作。</p>
+              </dd>
             </div>
-            <div>
-              <p class="skill-desc">能熟练使用 Office 办公软件，完成文档排版、表格处理与演示文稿制作。</p>
-              <div class="skill-tags"><span>Word</span><span>Excel</span><span>PowerPoint</span></div>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROJECT -->
-    <section class="section project-section" id="work">
-      <div class="container">
-        <div class="section-head reveal">
-          <div>
-            <p class="sec-label"><span class="num">04</span><i aria-hidden="true"></i>SELECTED WORK</p>
-            <h2 class="sec-title">项目经历</h2>
-          </div>
-          <p class="sec-desc">第一件完整作品，也是所有后续故事的起点。</p>
-        </div>
-
-        <article class="project-card reveal">
-          <div class="project-grid">
-            <div class="project-copy">
-              <p class="project-kicker">FEATURED PROJECT — 2022.07</p>
-              <h3 class="project-title">简易计算器</h3>
-              <p class="project-en">SIMPLE CALCULATOR / PERSONAL PROJECT</p>
-              <p class="project-desc">
-                独立完成的一款桌面计算器。它很<span class="nowrap">简单</span>，却是我第一次把课堂上的 C 语言<span class="nowrap">变成</span>可以运行、可以交互、可以交付的完整程序。
-              </p>
-              <ul class="bullet-list project-list">
-                <li>基于 Dev-C++ 5.11 + TDM-GCC 4.9.2 平台开发，独立完成界面与运算逻辑</li>
-                <li>支持 double 范围内的加、减、乘、除四则运算与开平方运算</li>
-                <li>具备独立操作界面，完整处理输入、运算与结果显示流程</li>
-              </ul>
-              <div class="tags">
-                <span>C</span><span>Dev-C++</span><span>TDM-GCC 4.9.2</span><span>Windows</span>
-              </div>
-              <p class="project-note">页面内的计算器为网页交互复刻，用于演示原始程序的运算逻辑。</p>
-            </div>
-
-            <div class="calc" id="calculator" aria-label="计算器演示">
-              <div class="calc-bar">
-                <span>calc.exe</span>
-                <span class="calc-live">INTERACTIVE</span>
-              </div>
-              <div class="calc-screen">
-                <div class="calc-history" id="calcHistory">&nbsp;</div>
-                <div class="calc-display" id="calcDisplay" role="status" aria-live="polite">0</div>
-              </div>
-              <div class="calc-keys">
-                <button class="calc-key fn" data-action="clear" aria-label="全部清除">AC</button>
-                <button class="calc-key fn" data-action="negate" aria-label="正负号">±</button>
-                <button class="calc-key fn" data-action="percent" aria-label="百分比">%</button>
-                <button class="calc-key op" data-op="/" aria-label="除">÷</button>
-
-                <button class="calc-key" data-num="7">7</button>
-                <button class="calc-key" data-num="8">8</button>
-                <button class="calc-key" data-num="9">9</button>
-                <button class="calc-key op" data-op="*" aria-label="乘">×</button>
-
-                <button class="calc-key" data-num="4">4</button>
-                <button class="calc-key" data-num="5">5</button>
-                <button class="calc-key" data-num="6">6</button>
-                <button class="calc-key op" data-op="-" aria-label="减">−</button>
-
-                <button class="calc-key" data-num="1">1</button>
-                <button class="calc-key" data-num="2">2</button>
-                <button class="calc-key" data-num="3">3</button>
-                <button class="calc-key op" data-op="+" aria-label="加">+</button>
-
-                <button class="calc-key fn" data-action="sqrt" aria-label="开平方">√</button>
-                <button class="calc-key" data-num="0">0</button>
-                <button class="calc-key" data-num="." aria-label="小数点">.</button>
-                <button class="calc-key eq" data-action="equals" aria-label="等于">=</button>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <!-- HONORS -->
-    <section class="section" id="honors">
-      <div class="container">
-        <div class="section-head reveal">
-          <div>
-            <p class="sec-label"><span class="num">05</span><i aria-hidden="true"></i>HONORS</p>
-            <h2 class="sec-title">荣誉与成绩</h2>
-          </div>
-          <p class="sec-desc">它们代表过去某一段时间的认真，也提醒我保持空杯。</p>
-        </div>
-
-        <div class="honors-grid">
-          <article class="honor honor--accent reveal">
-            <span class="honor-index">01</span>
-            <p class="honor-cat">学科竞赛</p>
-            <h3>高中数学联赛<br>初赛一等奖</h3>
-            <p class="honor-year">HIGH SCHOOL · MATHEMATICS</p>
-          </article>
-
-          <article class="honor reveal" style="--d:.05s">
-            <span class="honor-index">02</span>
-            <p class="honor-cat">高考成绩</p>
-            <h3>高考数学 133 分</h3>
-            <p class="honor-year">2026 新高考Ⅰ卷</p>
-          </article>
-
-          <article class="honor reveal" style="--d:.1s">
-            <span class="honor-index">03</span>
-            <p class="honor-cat">高考成绩</p>
-            <h3>高考英语 144 分</h3>
-            <p class="honor-year">2026 新高考Ⅰ卷</p>
-          </article>
-
-          <article class="honor reveal" style="--d:.15s">
-            <span class="honor-index">04</span>
-            <p class="honor-cat">写作</p>
-            <h3>市报社征文比赛<br>高中组三等奖</h3>
-            <p class="honor-year">CITY NEWSPAPER · ESSAY</p>
-          </article>
-
-          <article class="honor reveal" style="--d:.2s">
-            <span class="honor-index">05</span>
-            <p class="honor-cat">荣誉称号</p>
-            <h3>校级三好学生</h3>
-            <p class="honor-year">2023 — 2026</p>
-          </article>
-
-          <article class="honor reveal" style="--d:.25s">
-            <span class="honor-index">06</span>
-            <p class="honor-cat">荣誉称号</p>
-            <h3>校级学习之星</h3>
-            <p class="honor-year">2023 — 2026</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact" id="contact">
-      <span class="contact-ghost" aria-hidden="true">HELLO</span>
-      <div class="container contact-inner">
-        <p class="sec-label reveal"><span class="num">06</span><i aria-hidden="true"></i>CONTACT</p>
-        <h2 class="contact-title reveal" style="--d:.06s">一起做点<br><span class="accent">有趣的事。</span></h2>
-        <p class="contact-text reveal" style="--d:.12s">
-          如果你也对软件、竞赛，或只是一次普通的交流<span class="nowrap">感兴趣</span>，欢迎给我写邮件。我会认真读完每一封。
-        </p>
-
-        <div class="contact-actions reveal" style="--d:.18s">
-          <a class="mail" href="mailto:2164724967@qq.com">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            2164724967@qq.com
-          </a>
-          <button class="btn btn--ghost" id="copyEmail" data-copy="2164724967@qq.com">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8" stroke-linecap="round"/></svg>
-            复制邮箱
-          </button>
-          <a class="btn btn--primary" href="assets/resume.pdf" download>
-            下载简历
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v12m0 0 4.5-4.5M12 15l-4.5-4.5M4 17v3h16v-3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </div>
-
-        <p class="contact-hint reveal" style="--d:.24s">WUHAN · CHINA · UTC+8 / 期待你的来信</p>
+          </dl>
+        </aside>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <span>© <span id="year">2026</span> 杨正昊 · ALL RIGHTS RESERVED</span>
-      <span class="footer-mid">DESIGNED &amp; BUILT WITH CURIOSITY</span>
-      <div class="footer-links">
-        <a href="mailto:2164724967@qq.com">EMAIL</a>
-        <a href="#top">回到顶部 ↑</a>
-      </div>
+      <span>© <span id="year">2026</span> 杨正昊 · All Rights Reserved</span>
+      <p class="footer-credit">Co-designed by Yang Zhenghao &amp; DeepSeek-V4.1-Flash</p>
     </div>
   </footer>
-
-  <div class="toast" id="toast" role="status" aria-live="polite">邮箱已复制</div>
 
   <script src="assets/js/main.js"></script>
 </body>
